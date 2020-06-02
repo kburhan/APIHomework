@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1e171c-4b55-446f-9c20-84229df22bb9" name="Default Changelist" comment="" />
+    <list default="true" id="ff1e171c-4b55-446f-9c20-84229df22bb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/names.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cjkBAsaFda1NtHgRCbXdVkFf6P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,8 +30,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GitHubAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIHomeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework2" />
+      <option name="MAIN_CLASS_NAME" value="homework2.GitHubAPI" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GitHubAPI" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -49,5 +80,23 @@
       <updated>1591049252143</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom" timestamp="1591134373838">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1591134373838" />
+    <state width="1238" height="177" key="GridCell.Tab.0.center" timestamp="1591134373837">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1591134373837" />
+    <state width="1238" height="177" key="GridCell.Tab.0.left" timestamp="1591134373820">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1591134373820" />
+    <state width="1238" height="177" key="GridCell.Tab.0.right" timestamp="1591134373838">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1591134373838" />
   </component>
 </project>
