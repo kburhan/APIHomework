@@ -1,6 +1,10 @@
 package homework3;
 
 import static io.restassured.RestAssured.*;
+
+import homework3.pojos.HPCharacter;
+import homework3.pojos.HPHouse;
+import homework3.pojos.HPMember;
 import io.restassured.config.ObjectMapperConfig;
 import io.restassured.mapper.ObjectMapperType;
 import io.restassured.response.Response;
@@ -190,8 +194,8 @@ public class HarryPotterAPI {
                 body("[0]",isEmptyOrNullString()).
                 body("size()",is(0));
 
-
     }
+
     @Test
     @DisplayName("Verify house members")
     public void houseMember() {
@@ -243,6 +247,10 @@ public class HarryPotterAPI {
 
         List<String>memberIDs = response.jsonPath().getList("[0].members._id");
 
+        List<HPMember>memberList = response.jsonPath().getList("[0].members",HPMember.class);
+
+        System.out.println("memberList = " + memberList);
+
         Response response2 =
                 given().
                         header("Accept","application/json").
@@ -251,10 +259,47 @@ public class HarryPotterAPI {
                         when().
                         get("/characters").prettyPeek();
 
-        List<String>characterIDs = response.jsonPath().getList("findAll{it.house == 'Gryffindor'}._id");
+        List<String>characterIDs = response2.jsonPath().getList("_id");
 
-        assertEquals(memberIDs,characterIDs);
+        System.out.println("members = " + memberIDs.size());
+        System.out.println("characterIDs.size() = " + characterIDs.size());
+
+        List<HPCharacter>hpCharactersList = response2.jsonPath().getList("",HPCharacter.class);
+
+        System.out.println("hpCharactersList = " + hpCharactersList.size());
+        System.out.println("memberList = " + memberList.size());
+        assertEquals(memberList.size(),hpCharactersList.size());
     }
+    @Test
+    @DisplayName("Verify house with most members")
+    public void houseWithMostMembers() {
+        Response response =
+                given().
+                        header("Accept","application/json").
+                        queryParams("key",APIKEY).
+                        when().
+                        get("/houses").prettyPeek();
 
+        response.then().
+                assertThat().
+                statusCode(200).
+                contentType("application/json; charset=utf-8").
+                body("max{it.members.size()}.name",is("Gryffindor"));
+
+        List<HPHouse>houseList = response.jsonPath().getList("",HPHouse.class);
+        String houseHasTheMostMembers = "";
+        int max = 0;
+        for (HPHouse hpHouse:houseList) {
+            int sizeOFMembers = hpHouse.getMembers().size();
+            if(sizeOFMembers > max){
+                max = sizeOFMembers;
+                houseHasTheMostMembers = hpHouse.getName();
+            }
+        }
+
+        assertEquals("Gryffindor", houseHasTheMostMembers);
+
+
+    }
 
 }

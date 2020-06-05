@@ -1,10 +1,8 @@
 package homework3.pojos;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.gson.annotations.SerializedName;
 public class HPMember {
     @SerializedName("_id")
-    @JsonProperty("_id")
     private String id;
     private String name;
 

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff1e171c-4b55-446f-9c20-84229df22bb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework3/HarryPotterAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework3/HarryPotterAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework3/pojos/HPMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1cjkBAsaFda1NtHgRCbXdVkFf6P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,7 +44,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.HarryPotterAPI.houseMember">
+  <component name="RunManager" selected="JUnit.HarryPotterAPI.houseWithMostMembers">
     <configuration name="GitHubAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIHomeworks" />
       <extension name="coverage">
@@ -84,10 +92,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HarryPotterAPI.houseWithMostMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIHomeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework3" />
+      <option name="MAIN_CLASS_NAME" value="homework3.HarryPotterAPI" />
+      <option name="METHOD_NAME" value="houseWithMostMembers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HarryPotterAPI.houseMember" />
+        <item itemvalue="JUnit.HarryPotterAPI.houseWithMostMembers" />
         <item itemvalue="JUnit.HarryPotterAPI.houseMembers" />
+        <item itemvalue="JUnit.HarryPotterAPI.houseMember" />
         <item itemvalue="JUnit.GitHubAPI" />
       </list>
     </recent_temporary>
@@ -115,36 +140,61 @@
       <option name="presentableId" value="Default" />
       <updated>1591049252143</updated>
     </task>
+    <task id="LOCAL-00001" summary="API HW">
+      <created>1591226759768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591226759768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="API HW" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="177" key="GridCell.Tab.0.bottom" timestamp="1591226711926">
+    <state x="186" y="23" key="CommitChangelistDialog2" timestamp="1591226758671">
       <screen x="0" y="23" width="1280" height="731" />
     </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1591141247101" />
-    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.23.1280.731@0.23.1280.731" timestamp="1591226711926" />
-    <state width="1238" height="177" key="GridCell.Tab.0.center" timestamp="1591226711922">
-      <screen x="0" y="23" width="1280" height="731" />
-    </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1591141247100" />
-    <state width="1238" height="177" key="GridCell.Tab.0.center/0.23.1280.731@0.23.1280.731" timestamp="1591226711922" />
-    <state width="1238" height="177" key="GridCell.Tab.0.left" timestamp="1591226711921">
-      <screen x="0" y="23" width="1280" height="731" />
-    </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1591141247099" />
-    <state width="1238" height="177" key="GridCell.Tab.0.left/0.23.1280.731@0.23.1280.731" timestamp="1591226711921" />
-    <state width="1238" height="177" key="GridCell.Tab.0.right" timestamp="1591226711923">
-      <screen x="0" y="23" width="1280" height="731" />
-    </state>
-    <state width="1238" height="177" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1591141247101" />
-    <state width="1238" height="177" key="GridCell.Tab.0.right/0.23.1280.731@0.23.1280.731" timestamp="1591226711923" />
-    <state x="319" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1591211743803">
+    <state x="186" y="23" key="CommitChangelistDialog2/0.23.1280.731@0.23.1280.731" timestamp="1591226758671" />
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom" timestamp="1591316703860">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1591141247101" />
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1591316703860" />
+    <state width="1238" height="177" key="GridCell.Tab.0.bottom/0.23.1280.731@0.23.1280.731" timestamp="1591226795537" />
+    <state width="1238" height="177" key="GridCell.Tab.0.center" timestamp="1591316703859">
+      <screen x="0" y="23" width="1280" height="730" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1591141247100" />
+    <state width="1238" height="177" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1591316703859" />
+    <state width="1238" height="177" key="GridCell.Tab.0.center/0.23.1280.731@0.23.1280.731" timestamp="1591226795536" />
+    <state width="1238" height="177" key="GridCell.Tab.0.left" timestamp="1591316703858">
+      <screen x="0" y="23" width="1280" height="730" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1591141247099" />
+    <state width="1238" height="177" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1591316703858" />
+    <state width="1238" height="177" key="GridCell.Tab.0.left/0.23.1280.731@0.23.1280.731" timestamp="1591226795536" />
+    <state width="1238" height="177" key="GridCell.Tab.0.right" timestamp="1591316703860">
+      <screen x="0" y="23" width="1280" height="730" />
+    </state>
+    <state width="1238" height="177" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1591141247101" />
+    <state width="1238" height="177" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1591316703860" />
+    <state width="1238" height="177" key="GridCell.Tab.0.right/0.23.1280.731@0.23.1280.731" timestamp="1591226795536" />
+    <state x="153" y="134" key="Vcs.Push.Dialog.v2" timestamp="1591226768933">
+      <screen x="0" y="23" width="1280" height="731" />
+    </state>
+    <state x="153" y="134" key="Vcs.Push.Dialog.v2/0.23.1280.731@0.23.1280.731" timestamp="1591226768933" />
+    <state x="319" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1591307311464">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="319" y="213" key="com.intellij.ide.util.TipDialog/0.23.1280.728@0.23.1280.728" timestamp="1591307311464" />
     <state x="319" y="214" key="com.intellij.ide.util.TipDialog/0.23.1280.730@0.23.1280.730" timestamp="1591211743803" />
-    <state x="47" y="79" key="new project wizard" timestamp="1591141243863">
+    <state x="47" y="79" key="new project wizard" timestamp="1591314420371">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
-    <state x="47" y="79" key="new project wizard/0.23.1280.729@0.23.1280.729" timestamp="1591141243863" />
+    <state x="47" y="79" key="new project wizard/0.23.1280.729@0.23.1280.729" timestamp="1591314420371" />
   </component>
 </project>
